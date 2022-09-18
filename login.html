@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: #283618;
+        }
+        button{
+            display: inline;
+            background-color: #606c38;
+            width: 50%;
+            color: #ccd5ae;
+            padding: 15px;
+            margin: 15px 0px;
+            border: none;
+            cursor: pointer;
+        }
+       
+        input[type=text],input[type=password]{
+            width: 100%;
+            margin: 8px 2px;
+            padding: 15px 0px;
+            display: inline-block;
+            border: 2px solid #fefae0;
+            box-sizing: border-box;
+
+        }
+        button:hover{
+            opacity: 1.0;
+        }
+        .cancelbtn{
+            width:auto;
+           
+        }
+        .container{
+           
+            background-color: #dda15e;
+
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Student Login Page</h1>
+
+    </center>
+    <div class="container">
+        <label for="Roll number:"></label>
+        <input type="text" placeholder="Enter Roll number" name="rollnumber" required>
+        <label for="Password:"></label>
+        <input type="passsword" placeholder="Enter Password" name="passsword" required>
+        <button style="display: block;" type="submit" style="width: 20px;"> Login</button>
+        <button style="display: block;"type="button" class="cancelbtn">cancel
+            
+    </div>
+</form>
+</body>
+</html>
